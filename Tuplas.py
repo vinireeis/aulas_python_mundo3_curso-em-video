@@ -8,4 +8,3 @@ print(lanche[1])  # mostra o valor na posição 1
 print(lanche[:2])  # vai do inicio até o 1, pois ele ignora o último
 
 print(lanche[1:3])  # começa na posição 1 e vai até 2, ignorando o 3
-

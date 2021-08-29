@@ -35,3 +35,6 @@ c = [2, 3, 7, 1]
 d = c[:]
 d[1] = 15
 print(f'lista C: {c}, \nlista D: {d} ')
+
+print(lista.index(1))
+print(lista)

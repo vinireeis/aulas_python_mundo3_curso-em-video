@@ -11,7 +11,5 @@ for pos, elem in enumerate(lista):
         posA.append(pos)
     elif y == elem:
         posB.append(pos)
-
-
 print(f'O maior valor é {x} e está na posição {posA}')
 print(f'O menor valor é {y} e está na posição {posB}')

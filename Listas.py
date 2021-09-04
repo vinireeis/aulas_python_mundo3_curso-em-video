@@ -38,3 +38,21 @@ print(f'lista C: {c}, \nlista D: {d} ')
 
 print(lista.index(1))
 print(lista)
+print('-' * 60)
+print('-' * 60)
+galera = [['João', 19], ['Ana', 25], ['Larissa', 22], ['Joaquim', 13], ['Maria', 45]]
+print(galera)
+print('-' * 60)
+print(galera[0])
+print('-' * 60)
+print(galera[2][1])
+print('-' * 60)
+for dados in galera:
+    print(dados)
+print('-' * 60)
+# se quiser só os nomes ou só as idades
+for dados in galera:
+    print(dados[0], end=' ')  # ou dados[1]
+print('')
+print('-' * 60)
+

@@ -138,5 +138,5 @@ dmypy.json
 cython_debug/
 
 #VSCODE
-*.vscode/
+.vscode/
 .mypy_cache/

@@ -1,10 +1,12 @@
-dic = {'nome': None,
-       'media': None}
-dic['nome'] = input('Nome: ')
-dic['media'] = float(input(f'Média de {dic["nome"]}: '))
-if dic['media'] > 5.9:
-    print(f'nome é igual a {dic["nome"]}\nmedia é igual a {dic["media"]}\nsituação é igual a Aprovado')
+alunos = {'nome': None,
+          'media': None}
+alunos['nome'] = input('Nome: ')
+alunos['media'] = float(input(f'Média de {alunos["nome"]}: '))
+if alunos['media'] > 5.9:
+    print(
+        f'nome é igual a {alunos["nome"]}\nmedia é igual a {alunos["media"]}'
+        f'\nsituação é igual a Aprovado')
 else:
-    print(f'nome é igual a {dic["nome"]} media é igual a {dic["media"]}\nsituação é igual a Reprovado')
-
-    
+    print(
+        f'nome é igual a {alunos["nome"]}\nmedia é igual a {alunos["media"]}'
+        f'\nsituação é igual a Reprovado')
